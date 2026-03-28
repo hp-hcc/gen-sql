@@ -255,13 +255,3 @@ GenSQL Snowflake initialized with workerId=1, datacenterId=1, maxBackwardMillis=
 - 如果需要雪花 ID、流水号等自动生成能力，请继续使用 `fields` 模式
 - 多实例部署时请为不同实例分配不同的 Snowflake `workerId`
 
-## 适合作为团队工具的原因
-
-GenSQL 适合做成团队内部共享工具，因为它：
-
-- 部署轻
-- 调用简单
-- 不依赖数据库连接
-- 不依赖表结构元数据
-- 适合快速生成标准 SQL
-- 支持 Docker 分发，团队成员一条命令即可启动
